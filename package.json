@@ -1,6 +1,6 @@
 {
 	"name": "@nesvet/eslint-config",
-	"version": "1.0.289",
+	"version": "1.0.290",
 	"description": "Nesvet eslint config",
 	"type": "module",
 	"main": "./lib/index.json",
@@ -24,7 +24,7 @@
 	],
 	"author": "Eugene Nesvetaev <dev@nesvet.dev> (https://nesvet.dev/)",
 	"license": "MIT",
-	"devDependencies": {
+	"dependencies": {
 		"eslint": "^8",
 		"eslint-plugin-import": "^2",
 		"eslint-plugin-indent-empty-lines": "^1",
