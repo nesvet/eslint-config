@@ -4,10 +4,11 @@
 		"plugin:import/recommended",
 		"plugin:@typescript-eslint/recommended",
 		"plugin:@typescript-eslint/stylistic",
-		// "plugin:@typescript-eslint/recommended-requiring-type-checking",
 		"plugin:import/typescript"
 	],
+	"parser": "@typescript-eslint/parser",
 	"plugins": [
+		"@typescript-eslint",
 		"import",
 		"simple-import-sort",
 	    "indent-empty-lines"

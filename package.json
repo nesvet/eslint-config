@@ -1,6 +1,6 @@
 {
 	"name": "@nesvet/eslint-config",
-	"version": "1.0.287",
+	"version": "1.0.288",
 	"description": "Nesvet eslint config",
 	"type": "module",
 	"main": "./lib/index.json",
@@ -24,16 +24,16 @@
 	],
 	"author": "Eugene Nesvetaev <dev@nesvet.dev> (https://nesvet.dev/)",
 	"license": "MIT",
-	"peerDependencies": {
+	"devDependencies": {
 		"eslint": "^8",
 		"eslint-plugin-import": "^2",
 		"eslint-plugin-indent-empty-lines": "^1",
 		"eslint-plugin-json-es": "^1",
 		"eslint-plugin-react": "^7",
 		"eslint-plugin-simple-import-sort": "^10",
-		"typescript": "^5.2.2",
-		"@typescript-eslint/parser": "^6.7.3",
+		"typescript": "^5",
+		"@typescript-eslint/parser": "^6",
 		"@typescript-eslint/eslint-plugin": "^6",
-		"eslint-import-resolver-typescript": "^3.6.1"
+		"eslint-import-resolver-typescript": "^3"
 	}
 }
