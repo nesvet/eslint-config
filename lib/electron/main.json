@@ -1,0 +1,9 @@
+{
+	"extends": "..",
+	"env": {
+		"node": true
+	},
+	"settings": {
+		"import/core-modules": [ "electron" ]
+	}
+}

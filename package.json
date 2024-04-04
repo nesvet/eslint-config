@@ -1,0 +1,32 @@
+{
+	"name": "@nesvet/eslint-config",
+	"version": "1.0.286",
+	"type": "module",
+	"main": "./lib/index.json",
+	"module": "./lib/index.json",
+	"exports": {
+		".": "./lib/index.json",
+		"./x": "./lib/x.json",
+		"./electron/main": "./lib/electron/main.json",
+		"./electron/renderer": "./lib/electron/renderer.json"
+	},
+	"repository": "git+https://github.com/nesvet/eslint-config.git",
+	"keywords": [
+		"eslint",
+		"config"
+	],
+	"author": "Eugene Nesvetaev <dev@nesvet.dev> (https://nesvet.dev/)",
+	"license": "MIT",
+	"peerDependencies": {
+		"eslint": "^8",
+		"eslint-plugin-import": "^2",
+		"eslint-plugin-indent-empty-lines": "^1",
+		"eslint-plugin-json-es": "^1",
+		"eslint-plugin-react": "^7",
+		"eslint-plugin-simple-import-sort": "^10",
+		"typescript": "^5.2.2",
+		"@typescript-eslint/parser": "^6.7.3",
+		"@typescript-eslint/eslint-plugin": "^6",
+		"eslint-import-resolver-typescript": "^3.6.1"
+	}
+}

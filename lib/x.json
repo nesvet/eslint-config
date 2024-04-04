@@ -1,0 +1,24 @@
+{
+	"extends": ".",
+	"parserOptions": {
+		"ecmaFeatures": {
+			"jsx": true
+		}
+	},
+	"overrides": [
+		{
+			"files": [ "*.jsx", "*.tsx" ],
+			"rules": {
+				"simple-import-sort/imports": [ "warn", { "groups": [ [
+					"^node:",
+					"^react($|-)",
+					"^@",
+					"^\\w",
+					"^#",
+					"^\\$",
+					"."
+				] ] } ]
+			}
+		}
+	]
+}

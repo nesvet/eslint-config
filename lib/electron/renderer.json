@@ -1,0 +1,23 @@
+{
+	"extends": "../x",
+	"env": {
+		"node": true,
+		"browser": true
+	},
+	"settings": {
+		"import/core-modules": [ "electron" ]
+	},
+	"rules": {
+		"simple-import-sort/imports": [ "warn", { "groups": [ [
+			"^node:",
+			"^electron($|-)",
+			"^@?electron($|\/)",
+			"^react($|-)",
+			"^@",
+			"^\\w",
+			"^#",
+			"^\\$",
+			"."
+		] ] } ]
+	}
+}
