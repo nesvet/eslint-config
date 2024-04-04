@@ -3,13 +3,13 @@
 ## Installation
 
 ```sh
-npm install @nesvet/eslint-config
+npm install @nesvet/eslint-config --save-dev
 ```
 
 Or
 
 ```sh
-yarn add @nesvet/eslint-config
+yarn add @nesvet/eslint-config --dev
 ```
 
 ## Configuration
