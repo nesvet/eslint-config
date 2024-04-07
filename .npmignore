@@ -2,6 +2,7 @@
 .gitignore
 .DS_Store
 *.log
-*.lock
 node_modules/
 .github/
+.eslintrc
+tsconfig.json
