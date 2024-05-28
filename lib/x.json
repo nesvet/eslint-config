@@ -10,6 +10,7 @@
 			"files": [ "*.jsx", "*.tsx" ],
 			"rules": {
 				"simple-import-sort/imports": [ "warn", { "groups": [ [
+					"^bun($|\\W)",
 					"^node:",
 					"^react($|-)",
 					"^@",

@@ -188,6 +188,7 @@
 		
 		"import/newline-after-import": [ "warn", { "count": 2 } ],
 		"simple-import-sort/imports": [ "warn", { "groups": [ [
+			"^bun($|\\W)",
 			"^node:",
 			"^@",
 			"^\\w",
