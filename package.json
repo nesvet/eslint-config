@@ -1,6 +1,6 @@
 {
   "name": "@nesvet/eslint-config",
-  "version": "1.0.292",
+  "version": "1.1.0",
   "description": "Nesvet eslint config",
   "type": "module",
   "main": "./lib/index.json",
@@ -11,7 +11,7 @@
     "./electron/main": "./lib/electron/main.json",
     "./electron/renderer": "./lib/electron/renderer.json"
   },
-  "packageManager": "bun@1.1.9",
+  "packageManager": "bun@1.1.12",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
