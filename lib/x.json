@@ -36,6 +36,7 @@
 		"react/jsx-equals-spacing": [ "warn", "never" ],
 		"react/jsx-first-prop-new-line": [ "warn", "multiline" ],
 		"react/jsx-fragments": [ "warn" ],
+		"react/jsx-indent-props": [ "warn", "tab" ],
 		"react/jsx-indent": [ "warn", "tab" ],
 		"react/jsx-key": [ "error", { "checkKeyMustBeforeSpread": true, "warnOnDuplicates": true } ],
 		"react/jsx-max-props-per-line": [ "warn", { "maximum": { "single": 3, "multi": 1 } } ],
@@ -46,13 +47,13 @@
 		"react/jsx-sort-props": [ "warn", { "callbacksLast": true, "ignoreCase": true } ],
 		"react/jsx-tag-spacing": [ "warn" ],
 		"react/jsx-wrap-multilines": [ "warn", {
-			"declaration": "parens",
-			"assignment": "parens",
-			"return": "parens",
-			"arrow": "parens",
-			"condition": "parens",
-			"logical": "parens",
-			"prop": "parens"
+			"declaration": "parens-new-line",
+			"assignment": "parens-new-line",
+			"return": "parens-new-line",
+			"arrow": "parens-new-line",
+			"condition": "parens-new-line",
+			"logical": "parens-new-line",
+			"prop": "parens-new-line"
 		} ],
 		"react/no-unknown-property": [ "error" ],
 		"react/no-unused-class-component-methods": [ "error" ],
