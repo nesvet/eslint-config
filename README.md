@@ -14,34 +14,27 @@ bun add @nesvet/eslint-config --dev
 
 ## Configuration
 
-`.eslintrc`:
-```json
-{
-	"extends": "@nesvet",
-	"root": true
-}
+In case of *browser* environment your `eslint.config.js` is about to look like:
+```javascript
+export { browser as default } from "@nesvet/eslint-config";
 ```
 
-Or, for `jsx`:
-```json
-{
-	"extends": "@nesvet/eslint-config/x",
-	"root": true
-}
+For *Node*:
+```javascript
+export { node as default } from "@nesvet/eslint-config";
 ```
 
-Or, for Electron main:
-```json
-{
-	"extends": "@nesvet/eslint-config/electron/main",
-	"root": true
-}
+For neutral environment (both *browser* and *Node*):
+```javascript
+export { neutral as default } from "@nesvet/eslint-config";
 ```
 
-Or, for Electron renderer:
-```json
-{
-	"extends": "@nesvet/eslint-config/electron/renderer",
-	"root": true
-}
+For *Bun*:
+```javascript
+export { bun as default } from "@nesvet/eslint-config";
+```
+
+For *worker*:
+```javascript
+export { worker as default } from "@nesvet/eslint-config";
 ```
