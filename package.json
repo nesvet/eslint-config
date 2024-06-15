@@ -1,6 +1,6 @@
 {
   "name": "@nesvet/eslint-config",
-  "version": "2.0.12",
+  "version": "2.0.13",
   "description": "Nesvet eslint config",
   "type": "module",
   "main": "./lib/index.js",
@@ -20,7 +20,7 @@
   "author": "Eugene Nesvetaev <dev@nesvet.dev> (https://nesvet.dev/)",
   "license": "MIT",
   "dependencies": {
-    "eslint": "^9.4.0",
+    "eslint": "^9.5.0",
     "eslint-plugin-import-newlines": "^1.4.0",
     "eslint-plugin-indent-empty-lines": "^1.0.2",
     "eslint-plugin-n": "^17.9.0",
