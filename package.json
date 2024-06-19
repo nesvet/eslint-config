@@ -1,11 +1,11 @@
 {
   "name": "@nesvet/eslint-config",
-  "version": "2.0.13",
+  "version": "2.0.14",
   "description": "Nesvet eslint config",
   "type": "module",
   "main": "./lib/index.js",
   "module": "./lib/index.js",
-  "packageManager": "bun@1.1.13",
+  "packageManager": "bun@1.1.14",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -25,11 +25,11 @@
     "eslint-plugin-indent-empty-lines": "^1.0.2",
     "eslint-plugin-n": "^17.9.0",
     "eslint-plugin-perfectionist": "^2.11.0",
-    "eslint-plugin-react": "^7.34.2",
+    "eslint-plugin-react": "^7.34.3",
     "eslint-plugin-unicorn": "^53.0.0",
-    "typescript-eslint": "^7.13.0",
+    "typescript-eslint": "^7.13.1",
     "@types/eslint__js": "^8.42.3",
-    "@stylistic/eslint-plugin": "^2.1.0",
-    "globals": "^15.4.0"
+    "@stylistic/eslint-plugin": "^2.2.1",
+    "globals": "^15.6.0"
   }
 }
