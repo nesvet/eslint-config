@@ -1,6 +1,6 @@
 {
   "name": "@nesvet/eslint-config",
-  "version": "2.0.14",
+  "version": "2.0.15",
   "description": "Nesvet eslint config",
   "type": "module",
   "main": "./lib/index.js",
@@ -29,7 +29,7 @@
     "eslint-plugin-unicorn": "^53.0.0",
     "typescript-eslint": "^7.13.1",
     "@types/eslint__js": "^8.42.3",
-    "@stylistic/eslint-plugin": "^2.2.1",
+    "@stylistic/eslint-plugin": "^2.2.2",
     "globals": "^15.6.0"
   }
 }
