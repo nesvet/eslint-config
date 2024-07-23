@@ -24,7 +24,7 @@
     "eslint-plugin-import-newlines": "^1.4.0",
     "eslint-plugin-indent-empty-lines": "^1.0.2",
     "eslint-plugin-n": "^17.9.0",
-    "eslint-plugin-perfectionist": "^2.11.0",
+    "eslint-plugin-perfectionist": "^3.0.0",
     "eslint-plugin-react": "^7.34.3",
     "eslint-plugin-unicorn": "^53.0.0",
     "typescript-eslint": "^7.15.0",
