@@ -20,8 +20,8 @@
   "author": "Eugene Nesvetaev <dev@nesvet.dev> (https://nesvet.dev/)",
   "license": "MIT",
   "dependencies": {
+    "@eslint/js": "^9.23.0",
     "@stylistic/eslint-plugin": "^4.2.0",
-    "eslint": "^9.23.0",
     "eslint-plugin-import": "^2.31.0",
     "eslint-plugin-import-newlines": "^1.4.0",
     "eslint-plugin-indent-empty-lines": "^1.0.2",
