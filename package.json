@@ -1,4 +1,5 @@
 {
 		"@typescript-eslint/eslint-plugin": "^8.29.1",
 		"@typescript-eslint/parser": "^8.29.1",
+		"eslint-plugin-jsonc": "^2.20.0",
 }
