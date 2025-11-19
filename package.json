@@ -3,9 +3,14 @@
 	"version": "2.1.5",
 	"description": "Nesvet eslint config",
 	"type": "module",
-	"main": "./lib/index.js",
-	"module": "./lib/index.js",
-	"packageManager": "bun@1.3.1",
+	"main": "./lib/eslint/index.js",
+	"module": "./lib/eslint/index.js",
+	"exports": {
+		".": "./lib/eslint/index.js",
+		"./eslint": "./lib/eslint/index.js",
+		"./stylelint": "./lib/stylelint/index.js"
+	},
+	"packageManager": "bun@1.3.2",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
@@ -19,11 +24,16 @@
 	],
 	"author": "Eugene Nesvetaev <dev@nesvet.dev> (https://nesvet.dev/)",
 	"license": "MIT",
+	"peerDependencies": {
+		"eslint": "^9",
+		"stylelint": "^16"
+	},
 	"dependencies": {
-		"@eslint/js": "^9.38.0",
-		"@stylistic/eslint-plugin": "^5.5.0",
-		"@typescript-eslint/eslint-plugin": "^8.46.2",
-		"@typescript-eslint/parser": "^8.46.2",
+		"@eslint/js": "^9.39.1",
+		"@stylistic/eslint-plugin": "^5.6.1",
+		"@stylistic/stylelint-config": "^3.0.1",
+		"@typescript-eslint/eslint-plugin": "^8.47.0",
+		"@typescript-eslint/parser": "^8.47.0",
 		"eslint-plugin-import": "^2.32.0",
 		"eslint-plugin-import-newlines": "^1.4.0",
 		"eslint-plugin-indent-empty-lines": "^1.0.2",
@@ -32,6 +42,7 @@
 		"eslint-plugin-perfectionist": "^4.15.1",
 		"eslint-plugin-react": "^7.37.5",
 		"eslint-plugin-unicorn": "^62.0.0",
-		"globals": "^16.4.0"
+		"globals": "^16.5.0",
+		"stylelint-config-recommended": "^17.0.0"
 	}
 }
