@@ -10,7 +10,7 @@
 		"./eslint": "./lib/eslint/index.js",
 		"./stylelint": "./lib/stylelint/index.js"
 	},
-	"packageManager": "bun@1.3.2",
+	"packageManager": "bun@1.3.3",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
@@ -32,8 +32,8 @@
 		"@eslint/js": "^9.39.1",
 		"@stylistic/eslint-plugin": "^5.6.1",
 		"@stylistic/stylelint-config": "^3.0.1",
-		"@typescript-eslint/eslint-plugin": "^8.47.0",
-		"@typescript-eslint/parser": "^8.47.0",
+		"@typescript-eslint/eslint-plugin": "^8.48.0",
+		"@typescript-eslint/parser": "^8.48.0",
 		"eslint-plugin-import": "^2.32.0",
 		"eslint-plugin-import-newlines": "^1.4.0",
 		"eslint-plugin-indent-empty-lines": "^1.0.2",
