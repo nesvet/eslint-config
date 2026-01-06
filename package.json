@@ -1,6 +1,6 @@
 {
 	"name": "@nesvet/eslint-config",
-	"version": "2.2.3",
+	"version": "2.2.4",
 	"description": "Nesvet eslint config",
 	"type": "module",
 	"main": "./lib/eslint/index.js",
