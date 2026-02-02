@@ -2,34 +2,26 @@
 	"name": "@nesvet/eslint-config",
 	"version": "2.2.7",
 	"description": "Nesvet eslint config",
+	"keywords": [
+		"eslint",
+		"config"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/nesvet/eslint-config.git"
+	},
+	"license": "MIT",
+	"author": "Eugene Nesvetaev <dev@nesvet.dev> (https://nesvet.dev/)",
 	"type": "module",
-	"main": "./lib/eslint/index.js",
-	"module": "./lib/eslint/index.js",
 	"exports": {
 		".": "./lib/eslint/index.js",
 		"./eslint": "./lib/eslint/index.js",
 		"./stylelint": "./lib/stylelint/index.js"
 	},
-	"packageManager": "bun@1.3.8",
+	"main": "./lib/eslint/index.js",
+	"module": "./lib/eslint/index.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/nesvet/eslint-config.git"
-	},
-	"engines": {
-		"node": ">=20"
-	},
-	"keywords": [
-		"eslint",
-		"config"
-	],
-	"author": "Eugene Nesvetaev <dev@nesvet.dev> (https://nesvet.dev/)",
-	"license": "MIT",
-	"peerDependencies": {
-		"eslint": "^9",
-		"stylelint": "^17"
 	},
 	"dependencies": {
 		"@eslint/js": "^9.39.2",
@@ -49,5 +41,13 @@
 		"globals": "^17.3.0",
 		"stylelint-config-recommended": "^18.0.0",
 		"stylelint-order": "^7.0.1"
+	},
+	"peerDependencies": {
+		"eslint": "^9.39.2",
+		"stylelint": "^17.1.0"
+	},
+	"packageManager": "bun@1.3.8",
+	"engines": {
+		"node": ">=20"
 	}
 }
